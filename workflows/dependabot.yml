@@ -1,0 +1,18 @@
+name: Dependabot
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Checkout tools repo
+        uses: actions/checkout@v3
+        with:
+          repository: meratusdev/act-elgharantaly
+
+      - name: Print List of Files
+        run: ls -la
