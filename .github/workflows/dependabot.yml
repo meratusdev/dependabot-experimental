@@ -14,5 +14,5 @@ jobs:
         with:
           repository: meratusdev/act-elgharantaly
 
-      - name: Print List of Files
-        run: ls -la
+      - name: Dependabot Action
+        uses: github/dependabot-action
