@@ -15,4 +15,4 @@ jobs:
           repository: meratusdev/act-elgharantaly
 
       - name: Dependabot Action
-        uses: github/dependabot-action
+        uses: github/dependabot-action@v2
